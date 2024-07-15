@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SeaSavers Charity">
+    <meta name="keywords" content="Charity Website,SeaSavers">
+    <meta name="author" content="Amrit Koul">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SEA SAVERS </title>
+    <link rel="shortcut icon" href="images/SeaSavers_Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logocontainer">
+    <img src="images/SeaSavers_Logo.jpg" alt="SeaSaverslogo" class="logo">
+    <header>
+        <h1 class="title">Sea Savers</h1>
+        <p>the initiative to save the ocean and marine life.</p>
+    </header>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="donate.html" class="donate-link">DONATE</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h3>Contact Us</h3>
+    <h4>Get in Touch</h4>
+<p>We would love to hear from you! Whether you have questions, want to get involved, or need more information, please reach out to us.</p>
+<form id="ContactForm" onsubmit="return validateContact()">
+    <label for="name1">Name:</label>
+    <input type="text" id="name1" name="name1">
+    <label for="email1">Email:</label>
+    <input type="email" id="email1" name="email1">
+    <label for="feedback1">Feedback:</label>
+    <textarea name="feedback1" id="feedback1"></textarea>
+    <button type="submit">Submit</button>
+</form>
+<script src="script.js"></script>

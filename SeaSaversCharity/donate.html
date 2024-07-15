@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SeaSavers Charity">
+    <meta name="keywords" content="Charity Website,SeaSavers">
+    <meta name="author" content="Amrit Koul">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SEA SAVERS </title>
+    <link rel="shortcut icon" href="images/SeaSavers_Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logocontainer">
+    <img src="images/SeaSavers_Logo.jpg" alt="SeaSaverslogo" class="logo">
+    <header>
+        <h1 class="title">Sea Savers</h1>
+        <p>the initiative to save the ocean and marine life.</p>
+    </header>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="donate.html" class="donate-link">DONATE</a></li>
+        </ul>
+    </nav>
+    <form id="donationForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="amount">Donation Amount:</label>
+        <input type="number" id="amount" name="amount" min="1">
+        <button type="submit">Donate</button>
+    </form>
+
+    <script src="script.js"></script>
