@@ -1,23 +1,23 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color:#fbffff;
+    background-color:#e0f7fa;
     color:balck;
-    margin-right: 5px;
-    margin-left: 5px;
-    overflow:auto;
+    margin: 0 0;
+    overflow:scroll;
 }
 .logo{
     position: relative;
-    left: 1%;
-    top: 0%;
+    top:20px;
     width: 150px;
-    height: auto;
-    border-radius: 76px;
+    height:fit-content;
+    border-radius: 80px;
 }
 .logocontainer{
+    position: sticky;
+    top: 0;
     display: flex;
-    align-items: center;
-    background-color: #013A63;    ;
+    justify-content: space-between;
+    background-color: #013A63;
 }
 header{
     margin-top: 40px;
@@ -27,7 +27,7 @@ header{
     left:6%;
     color: #fbffff;
     h1{
-        font-size: 70px;;
+        font-size: 70px;
     }
 
 }
@@ -64,33 +64,22 @@ li{
 
 .image-container {
     position: relative;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 .image {
-    display: block;
-    width: 100%;
-    height: auto;
+    object-fit:cover;
+
 }
 .overlay{
     position: absolute;
-    top: 85px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 85%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.382);
+    height: 100%; 
+    opacity: 0;
+    background-color: rgb(255, 255, 255,0.4);
     text-align: center;
-    opacity: 0; 
     animation: fadeIn 3s forwards; 
-}
-
-
-.overlay-content {
-    color: blue; 
-    font-weight: 100;
 }
 
 @keyframes fadeIn {
@@ -101,7 +90,8 @@ li{
         opacity: 1;
     }
 }
-#intro{
+
+.intro{
     font-size: 1.5em;
     white-space:pre-line;
     text-align: center;
@@ -116,7 +106,7 @@ li{
     padding: 20px;
 }
 .mission-item {
-    background-color: #e0f7fa; 
+    background-color: #ADD8E6; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -174,13 +164,60 @@ form{
     max-width: 400px;
     margin: 0 auto;
 }
-label{
-    padding: 20px 0px;
-}
 input{
     padding: 10px 10px;
 }
 button{
     margin-top: 5%;
     height: 50px;
+}
+.list{
+    size: 80%;
+    font-size: smaller;
+}
+.design{
+    background-color: #4cb9ccc7;
+}
+form {
+    max-width: 500px;
+    padding: 20px 40px;
+    background: #91cac5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    background-color: #dae3e7;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #0077B6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #034f7e;
 }
