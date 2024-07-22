@@ -7,7 +7,7 @@ function validateForm() {
         alert('All fields are required!');
         return false;
     }
-    alert("Thank You For Donating!");
+    alert('Thank You For Donating!');
     return true;
 }
 
@@ -35,14 +35,14 @@ function prevSlide() {
 }
 
 function validateContact(){
-    var name1 = document.getElementsById('name1').value;
-    var email1 = document.getElementById('email1').value;
-    var feedback1 = document.getElementById('feedback1').value;
+    var name = document.getElementById('name1').value;
+    var email = document.getElementById('email1').value;
+    var feedback = document.getElementById('feedback1').value;
 
-    if(name1 ===''||email1 ===''||feedback1 ===''){
-        alert('All fields are required')
+    if(name ===''||email ===''||feedback ===''){
+        alert('All fields are required');
         return false;
     }
-    alert("Submitted Succesfully!");
+    alert('Submitted Succesfully!');
     return true;
 }
