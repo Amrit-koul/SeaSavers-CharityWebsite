@@ -8,10 +8,10 @@ Welcome to the GitHub repository for the Sea Savers charity website!
 Sea Savers is a Charity Website dedicated to protecting the oceans and marine wildlife.The aim of this project is to create a visually appealing, user-friendly platform that supports charitable causes.
 
 ## 🐟 Features
--Home Page: Overview of the charity and their mission
--About Page: Detailed information about the charity's values and beliefs
--Contact Page: Form to contact the organization.
--Donation Page:Form to donate
+- Home Page: Overview of the charity and their mission
+- About Page: Detailed information about the charity's values and beliefs
+- Contact Page: Form to contact the organization.
+- Donation Page:Form to donate
 <!---Responsive Design: Works on both desktop and mobile devices.-->
 
 ---
