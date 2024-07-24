@@ -44,7 +44,7 @@ nav ul a{
     font-weight:bold;
 }
 nav ul li a:hover{
-    color: plum;
+    color: #247ab8;
     cursor: pointer;
 }
 .donate-link{
@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 }
 .donate-link:focus{
-    color: aqua;
+    color: #0c1e84;
 }
 li{
     padding-right: 25px;
